@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Card from "./Card.vue";
-let base = [
+import "../Interfaces/Interface";
+let base: Card[] = [
   {
     background: "white",
     color: ["white", "black"],
@@ -12,7 +13,7 @@ let base = [
     contrast: ["AAA", "#000000", "#FFFFFF"],
   },
 ];
-let neutral = [
+let neutral: Card[] = [
   {
     background: "white",
     color: ["50", "black"],
@@ -64,7 +65,7 @@ let neutral = [
     contrast: ["AAA", "#c4c7cc", "#000000"],
   },
 ];
-let primary = [
+let primary: Card[] = [
   {
     background: "white",
     color: ["50", "black"],
@@ -116,7 +117,7 @@ let primary = [
     contrast: ["AAA", "#c4c7cc", "#000000"],
   },
 ];
-let error = [
+let error: Card[] = [
   {
     background: "white",
     color: ["50", "black"],

@@ -61,11 +61,11 @@ function deleteSelectedFile() {
   <div>
     <h1>File Input</h1>
     <div class="fileselect">
-      <label for="fileselect">Label</label>
+      <label for="inputselect">Label</label>
       <input
         type="file"
-        name="fileselect"
-        id="fileselect"
+        name="inputselect"
+        id="inputselect"
         ref="input"
         style="display: none"
         accept="image/*"
@@ -117,7 +117,7 @@ function deleteSelectedFile() {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  .fileselect__item {
+  &__item {
     display: flex;
     align-items: center;
     gap: 10px;
